@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Math and Wordament Game</title>
+    
+</head>
+<body><link
+    <link rel="stylesheet" href="styles.css">
+    <div id="game">
+        <div id="math-game">
+            <h2>Math Game</h2>
+            <p>Bet amount: <span id="bet-amount">0</span></p>
+            <p>Score: <span id="math-score">0</span></p>
+            <button onclick="submitAnswer()">Submit Answer</button>
+        </div>
+        <div id="wordament-game">
+            <h2>Wordament Game</h2>
+            <div id="game-board"></div>
+            <div id="word-input">
+                <input type="text" id="word" placeholder="Type your word">
+                <button onclick="submitWord()">Submit Word</button>
+            </div>
+            <p>Score: <span id="wordament-score">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

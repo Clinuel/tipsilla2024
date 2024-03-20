@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around;
+}
+
+#math-game,
+#wordament-game {
+    width: 45%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width:
